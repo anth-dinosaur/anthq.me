@@ -1,0 +1,17 @@
+- name: projects
+  items:
+    - headline: "Photos"
+      underline: "I enjoy taking photos and developing them in Lightroom"
+      timeline: "Ongoing"
+
+- name: work
+  items:
+    - headline: "New York Life Insurance"
+      underline: "Actuary"
+      timeline: "2013 – Now"
+
+- name: education
+  items:
+    - headline: "BS Math - Actuarial Science"
+      underline: "University of Connecticut"
+      timeline: "2009 – 2013"
