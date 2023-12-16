@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title | default: site.name }}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         fontFamily: {
           sans: [
-            '"Inter var", sans-serif',
+            '"Inter", sans-serif',
             {
               fontFeatureSettings: '"cv11", "ss01"',
               fontVariationSettings: '"opsz" 32'
