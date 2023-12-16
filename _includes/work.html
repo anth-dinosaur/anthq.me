@@ -1,0 +1,9 @@
+<div class="bg-white p-4 mb-4 rounded-lg shadow">
+  <h2 class="text-lg font-semibold mb-2">Work Experience</h2>
+  {% for job in site.data.work %}
+    <div class="mb-3">
+      <h3 class="font-semibold">{{ job.company }}</h3>
+      <p>{{ job.position }} <span class="text-gray-600">{{ job.duration }}</span></p>
+    </div>
+  {% endfor %}
+</div>
