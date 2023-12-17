@@ -2,17 +2,17 @@
   <div class="flex items-center">
     <img src="assets/aq_head.png" alt="Profile picture" class="w-24 h-24 rounded-full mr-4">
     <div>
-      <h1 class="text-2xl font-semibold">Anthony Quarella</h1>
+      <h1 class="text-2xl">Anthony Quarella</h1>
       <p class="text-gray-700">Actuary & Technologist</p>
     </div>
   </div>
 </div>
 {% for section in site.data.items %}
   <div class="bg-white p-4 mb-4 rounded-lg shadow">
-    <h2 class="text-lg font-semibold mb-2">{{ section.name }}</h2>
+    <h2 class="text-lg mb-2">{{ section.name }}</h2>
     {% for item in section.items %}
       <div class="mb-3">
-        <h3 class="font-semibold">{{ item.headline }}</h3>
+        <h3>{{ item.headline }}</h3>
         <p>{{ item.underline }} <span class="text-gray-400">{{ item.timeline }}</span></p>
       </div>
     {% endfor %}

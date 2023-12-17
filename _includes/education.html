@@ -1,8 +1,8 @@
 <div class="bg-white p-4 mb-4 rounded-lg shadow">
-  <h2 class="text-lg font-semibold mb-2">Education</h2>
+  <h2 class="text-lg mb-2">Education</h2>
   {% for education in site.data.education %}
     <div class="mb-3">
-      <h3 class="font-semibold">{{ education.degree }}</h3>
+      <h3>{{ education.degree }}</h3>
       <p>{{ education.institution }} <span class="text-gray-600">{{ education.duration }}</span></p>
     </div>
   {% endfor %}
