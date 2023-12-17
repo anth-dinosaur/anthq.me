@@ -21,3 +21,11 @@
     - headline: "MAA"
       underline: "American Academy of Actuaries"
       timeline: "2015"
+
+- name: Tools
+  items:
+    - headline: Expert
+      underline: |
+        <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/tableau.svg" />
+        <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/microsoftexcel.svg" />
+        <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/python.svg" />
