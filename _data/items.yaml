@@ -12,16 +12,15 @@
 
 - name: Education & Professional Designations
   items:
-    - headline: "B.S. Math - Actuarial Science"
-      underline: "University of Connecticut"
-      timeline: "2013"
     - headline: "FSA"
       underline: "Society of Actuaries"
       timeline: "2017"
     - headline: "MAAA"
       underline: "American Academy of Actuaries"
       timeline: "2015"
-
+    - headline: "B.S. Math - Actuarial Science"
+      underline: "University of Connecticut"
+      timeline: "2013"
 - name: Tools
   items:
     - headline: |-
